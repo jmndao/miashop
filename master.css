@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-bold {
+    font-weight: 400;
+}
+
+.brand-logo,
+.text-logo,
+.text-bold-9 {
+    font-weight: 900;
+}
+
+.caption h3 {
+    font-weight: 900;
+}
+
+.section-showcazing .card-panel {
+    margin: 0;
+    padding: 10px !important;
+}
+
+.section-showcazing {
+    position: relative;
+}
+
+.elevate {
+    position: absolute;
+    top: -20%;
+    z-index: 10;
+}
+
+.mia_list_q {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.section-showcazing .material-icons.left {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.search_bar input {
+    padding: 5px 10px !important;
+    font-size: 20px !important;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #ef6c00;
+    -webkit-box-shadow: 0 1px 0 0 #ef6c00;
+    box-shadow: 0 1px 0 0 #ef6c00;
+}
+
+.cat li {
+    padding: 10px 0;
+}
+
+.cat li a:hover {
+    color: #ef6c00 !important;
+    margin-left: 3px;
+    font-weight: 500;
+    transition: margin-left 300ms ease;
+}
