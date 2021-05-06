@@ -1,4 +1,4 @@
-# miashop
+# Miashop
 A simple showcase website with materializecss.
 
 ## Terms of use
